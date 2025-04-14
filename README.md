@@ -1,6 +1,6 @@
-# MediHut WhatsApp Bot
+# WhatsApp Bot
 
-A WhatsApp chatbot for MediHut Pharmacy e-commerce application that enables users to:
+A WhatsApp chatbot for Pharmacy e-commerce application that enables users to:
 - Search for medicines
 - Track orders
 - View recent orders
