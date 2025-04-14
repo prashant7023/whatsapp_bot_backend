@@ -56,9 +56,7 @@ try {
 }
 
 // Print our webhook URL for easier configuration
-console.log('=================================================');
 console.log(`WebHook URL for Twilio: ${process.env.NGROK_URL}/api/webhook`);
-console.log('=================================================');
 
 // Configure controllers for medicine and product searches
 let searchMedicinesAPI;
@@ -1059,16 +1057,11 @@ Our team will review it shortly and get back to you with available medicines and
 // Start the server
 app.listen(PORT, '0.0.0.0', async () => {
   console.log(`WhatsApp bot server running on port ${PORT}`);
-  console.log(`=================================================`);
   console.log(`WEBHOOK URL: ${process.env.NGROK_URL}/api/webhook`);
   console.log(`Set this in Twilio WhatsApp Sandbox settings.`);
-  console.log(`=================================================`);
   console.log(`Twilio Phone: ${process.env.TWILIO_PHONE_NUMBER}`);
-  console.log(`=================================================`);
   console.log(`Base server URL: ${SERVER_URL}`);
-  console.log(`=================================================`);
   console.log(`Enhanced search functionality: ${searchMedicinesAPI && searchProductsAPI ? 'Enabled' : 'Disabled'}`);
-  console.log(`=================================================`);
   
   // Test Twilio connection
   try {

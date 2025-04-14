@@ -1,5 +1,5 @@
 {
-  "name": "chatbot",
+  "name": "whatsapp_bot_backend",
   "version": "1.0.0",
   "main": "botserver.js",
   "scripts": {
